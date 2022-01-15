@@ -205,3 +205,32 @@ margin-right: 5%;
 .influencer-name{
     margin-left: 16px;
 }
+
+/*----------footer section---------- */
+.footer{
+    background-color:rgba(10, 8, 38, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.footer-para{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Manrope', sans-serif;
+    font-weight:bold ;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.fab{
+    color: #ffffff;
+    margin-right: 16px;
+}

@@ -11,6 +11,7 @@ font-family: 'Roboto', sans-serif; */
 body{
     margin: 0%;
     padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*----------nav style---------- */
@@ -166,5 +167,41 @@ line-height: 143%;
 color: #787885;
 margin-top: 16px;
 }
- 
-   
+
+hr{
+    margin: 100px 8%;
+    }    
+/*----------influencer section---------- */
+
+.influencer-section{
+margin-left: 15%;
+margin-right: 5%;
+
+}
+.influencer-section h2{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+
+}
+.influencers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.influencer{
+    display: flex;
+    align-items: center;
+}
+.influencer img{
+    width: 100px;
+    height: 100px;
+}
+.influencer-name{
+    margin-left: 16px;
+}
